@@ -18,13 +18,13 @@ This was developed as part of the CIS 593 Final Project at Cleveland State Unive
 
 ## Project Structure
 CIS_593_Document_Search_Engine/
-├── app.py # Flask server and routing
-├── preprocess.py # Lemmatization, stopword removal, etc.
-├── TFIDF_search.py # TF-IDF generation and similarity computation
-├── test_search.py # Test script for query functionality
-├── templates/
-│ └── search.html # UI template
-└── .gitignore # Ignored files
+- app.py # Flask server and routing
+- preprocess.py # Lemmatization, stopword removal, etc.
+- TFIDF_search.py # TF-IDF generation and similarity computation
+- test_search.py # Test script for query functionality
+- templates/
+  - search.html # UI template
+- .gitignore # Ignored files
 
 ## How to Run
 
