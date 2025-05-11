@@ -1,5 +1,7 @@
 import re
-from nltk.tokenize import word_tokenize
+# used for Pycharm
+# from nltk.tokenize import word_tokenize 
+from nltk.tokenize import RegexpTokenizer
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 import nltk
@@ -17,6 +19,9 @@ def preprocess(text):
     text = re.sub(r"[^a-z\s]", " ", text)
     text = re.sub(r"\s+", " ", text)
     text = text.strip()
-    tokens = word_tokenize(text)
+    # used for Pycharm
+    # tokens = word_tokenize(text)
+    tokenizer = RegexpTokenizer(r'\w+')
+    tokens = tokenizer.tokenize(text)
     cleaned = [lemmatizer.lemmatize(word) for word in tokens if word not in stop_words and len(word) > 2]
     return " ".join(cleaned)
