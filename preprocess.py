@@ -1,6 +1,5 @@
 import re
-# used for Pycharm
-# from nltk.tokenize import word_tokenize 
+# from nltk.tokenize import word_tokenize
 from nltk.tokenize import RegexpTokenizer
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
@@ -19,7 +18,6 @@ def preprocess(text):
     text = re.sub(r"[^a-z\s]", " ", text)
     text = re.sub(r"\s+", " ", text)
     text = text.strip()
-    # used for Pycharm
     # tokens = word_tokenize(text)
     tokenizer = RegexpTokenizer(r'\w+')
     tokens = tokenizer.tokenize(text)

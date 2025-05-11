@@ -1,5 +1,5 @@
-from TFIDF_search import search_reviews
-from preprocess import preprocess
+from Document_Search_Engine.TFIDF_search import search_reviews
+from Document_Search_Engine.preprocess import preprocess
 
 def get_user_query():
     query = input("\nEnter your search query (or type 'exit' to quit): ").strip()

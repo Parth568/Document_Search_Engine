@@ -1,7 +1,7 @@
 from pymongo import MongoClient
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-from preprocess import preprocess
+from Document_Search_Engine.preprocess import preprocess
 
 # Connect to MongoDB
 client = MongoClient("mongodb://localhost:27017/")

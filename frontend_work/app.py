@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-from TFIDF_search import search_reviews
+from Document_Search_Engine.TFIDF_search import search_reviews
 
 app = Flask(__name__)
 
