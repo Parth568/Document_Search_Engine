@@ -10,7 +10,7 @@ def get_user_query():
 def display_results(results):
     print("\n Top Matching Reviews:")
     print("\n{:<5} {:<10} {:<25} {:<15} {:<5} {}".format("No.", "Score", "Business Name", "Place", "stars","Review"))
-    print("-" * 100)
+    print("-" * 150)
 
     for idx, result in enumerate(results, 1):
         print("{:<5} {:<10} {:<25} {:<15} {:<5} {}".format(
