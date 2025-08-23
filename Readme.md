@@ -17,21 +17,6 @@ This project implements an intelligent document search engine over Yelp's review
 
 ---
 
-## **Project Structure**
-
-─ app.py # Flask backend to serve search UI
-─ TFIDF_search.py # Vectorization and similarity logic
-─ preprocess.py # Text cleaning and normalization functions
-─ templates/
-    ─ search.html # Frontend Jinja2 template
-─ static/
-   ─ styles.css # (Optional) CSS styling for UI
-─ README.md
-─ requirements.txt # Python dependencies
-─ test_search.py # CLI-based search testing script
-
----
-
 ## **Setup Instructions**
 
 ### **1.Clone the Repository**
@@ -113,4 +98,3 @@ Parth Chaudhari
 ## **License**
 
 MIT License or as per academic submission guidelines.
-
