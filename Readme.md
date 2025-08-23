@@ -6,6 +6,12 @@ This project implements an intelligent document search engine over Yelp's review
 
 ---
 
+##Dataset which is take as an input:
+
+- Yelp Dataset: <https://business.yelp.com/data/resources/open-dataset/> 
+
+---
+
 ## **Features**
 
 - Query processing with text normalization
@@ -98,3 +104,4 @@ Parth Chaudhari
 ## **License**
 
 MIT License or as per academic submission guidelines.
+
